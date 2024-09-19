@@ -5,4 +5,5 @@ import com.example.demo.entity.*;
 
 public interface StudentService {
 	public List<Student> getAllStudents();
+	public List<Student> getStudentsByName(String name);
 }
